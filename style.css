@@ -46,6 +46,8 @@ h1 {
     width: 100%;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    padding-top: 100px;
+
 
 }
 
@@ -54,15 +56,32 @@ h1 {
 }
 
 .about-img img {
-    width: 110%;
+    width: 100%;
     padding-top: 20px;
 
 }
 
 .recipie-area {
     text-align: center;
+    margin: 5%;
 }
-.recipie-item{
+
+.recipie-item {
     width: 50%;
-    padding: 200px;
+    margin: 2%;
+
+
+
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.recipie-item img {
+    width: 90%;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.countdown {
+    margin: 10%;
 }
